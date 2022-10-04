@@ -53,3 +53,23 @@ h1{
         margin-left: 220px;
     }
 }
+
+@media (max-width: 387px){
+    p{
+     margin-left: 240px;   
+    }
+    #currentScore{
+        position: absolute;
+        margin-left: 210px;
+    }
+}
+
+@media (max-width: 376px){
+    p{
+     margin-left: 230px;   
+    }
+    #currentScore{
+        position: absolute;
+        margin-left: 205px;
+    }
+}
