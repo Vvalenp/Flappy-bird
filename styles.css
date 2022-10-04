@@ -80,17 +80,40 @@ h1{
     }
     #currentScore{
         position: absolute;
-        padding-left: 180px;
+        left: -10px;
     }
 }
 
 
-@media (max-width: 350px){
+@media (max-width: 355px){
     p{
      margin-left: 190px;   
     }
     #currentScore{
         position: absolute;
-        padding-left: 160px;
+        margin-left: -15px;
+    }
+}
+
+@media (max-width: 339px){
+    p{
+     margin-left: 190px;   
+    }
+    #currentScore{
+        position: absolute;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 330px){
+    p{
+     margin-left: 170px;   
+    }
+    #currentScore{
+        position: absolute;
+        font-size: 14px;
+    }
+    #bestScore{
+        font-size: 14px;
     }
 }
