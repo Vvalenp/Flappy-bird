@@ -31,3 +31,15 @@ h1{
     padding: 8px 6px;
     background: #5ee270;
 }
+
+/*media screens*/
+
+@media (max-width: 412px){
+    p{
+     margin-left: 240px;   
+    }
+    #currentScore{
+        position: absolute;
+        margin-left: 220px;
+    }
+}
