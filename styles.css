@@ -15,8 +15,8 @@ header{
 p{
     font-size: 14px;
     position: absolute;
-    right: 180px;
-    top: 40px;
+    margin-left: 270px;
+    margin-top: -17px;
 }
 
 h1{
