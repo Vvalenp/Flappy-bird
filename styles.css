@@ -33,6 +33,16 @@ h1{
 }
 
 /*media screens*/
+@media (max-width: 515px){
+    p{
+     margin-left: 240px;   
+    }
+    #currentScore{
+        position: absolute;
+        margin-left: 220px;
+    }
+}
+
 
 @media (max-width: 412px){
     p{
