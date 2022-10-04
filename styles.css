@@ -39,7 +39,7 @@ h1{
     }
     #currentScore{
         position: absolute;
-        margin-left: 220px;
+        padding-left: 220px;
     }
 }
 
@@ -50,7 +50,7 @@ h1{
     }
     #currentScore{
         position: absolute;
-        margin-left: 220px;
+        padding-left: 220px;
     }
 }
 
@@ -60,16 +60,37 @@ h1{
     }
     #currentScore{
         position: absolute;
-        margin-left: 210px;
+        padding-left: 210px;
     }
 }
 
-@media (max-width: 376px){
+@media (max-width: 380px){
     p{
      margin-left: 230px;   
     }
     #currentScore{
         position: absolute;
-        margin-left: 205px;
+        padding-left: 205px;
+    }
+}
+
+@media (max-width: 370px){
+    p{
+     margin-left: 210px;   
+    }
+    #currentScore{
+        position: absolute;
+        padding-left: 180px;
+    }
+}
+
+
+@media (max-width: 350px){
+    p{
+     margin-left: 190px;   
+    }
+    #currentScore{
+        position: absolute;
+        padding-left: 160px;
     }
 }
